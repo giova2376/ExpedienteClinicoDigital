@@ -10,8 +10,8 @@
     --primary-color: #008080;       /* Verde azulado */
     --secondary-color: #005f5f;     /* Oscuro para botones secundarios */
     --light-color: #ffffff;         /* Blanco */
-    --dark-color: #2b2b2b;          /* Gris oscuro para texto y footer */
-    --grey-light: #f4f4f4;          /* Gris claro de fondo */
+    --dark-color: #ffffff;          /* Gris oscuro para texto y footer */
+    --grey-light: #005f5f;          
     --grey-medium: #bfbfbf;         /* Gris medio */
     --transition-fast: 0.3s ease;
     --font-family: 'Montserrat', sans-serif;
@@ -29,9 +29,10 @@
   h1, h2, h3, h4, h5 {
     font-weight: 600;
   }
-  p {
+  p1 {
     font-weight: 300;
     margin-bottom: 1rem;
+    color: white;
   }
   a {
     text-decoration: none;
@@ -370,9 +371,9 @@
      FOOTER
      ================================== */
   .footer {
-    background: var(--dark-color);
-    color: var(--grey-light);
+    background-color: #008080;
     padding: 2rem 0;
+    color: #000;
   }
   .footer-content {
     display: flex;
